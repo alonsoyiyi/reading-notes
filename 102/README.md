@@ -5,7 +5,7 @@
 - [Growth Mindset](growth-mindset.md)
 - [Markdown](markdown.md)
 - [La Computadora del Programador](computadora-del-programador.md)
-- [Clase 4](./4.md)
+- [Control de Versiones](control-versiones.md)
 - [Clase 5](./5.md)
 - [Clase 6](./6.md)
 - [Clase 7](./7.md)
