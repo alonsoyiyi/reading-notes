@@ -6,7 +6,7 @@
 - [Markdown](markdown.md)
 - [La Computadora del Programador](computadora-del-programador.md)
 - [Control de Versiones](control-versiones.md)
-- [Clase 5](./5.md)
+- [HTML para principiantes](./html-principiantes.md)
 - [Clase 6](./6.md)
 - [Clase 7](./7.md)
 - [Clase 8](./8.md)
