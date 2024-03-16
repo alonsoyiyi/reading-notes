@@ -12,10 +12,8 @@ Si html ofrecía un excelente soporte para estructurar la página, CSS nos da la
 
 ## Escribe un ejemplo de una regla CSS que daría texto rojo a todos los elementos <p>.
 
- <style>
-      
-      <style>
+ `<style>
         p {
             color: red;
         }
-    </style>
+    </style>`
