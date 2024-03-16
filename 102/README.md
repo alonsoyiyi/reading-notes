@@ -7,6 +7,6 @@
 - [La Computadora del Programador](computadora-del-programador.md)
 - [Control de Versiones](control-versiones.md)
 - [HTML para principiantes](./html-principiantes.md)
-- [Clase 6](./6.md)
+- [Css para principiantes](./css-principiantes.md)
 - [Clase 7](./7.md)
 - [Clase 8](./8.md)
