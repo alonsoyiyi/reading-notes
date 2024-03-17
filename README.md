@@ -19,4 +19,4 @@ Este sitio web es una recopilación de todos los códigos y trabajos que he hech
 
 ## Dragon Ball Eternal
 
-[Dragon Ball Eternal](./db-eternal/index.html)
+[Dragon Ball Eternal](./db-eternal/index/index.html)
