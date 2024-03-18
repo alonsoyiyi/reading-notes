@@ -12,7 +12,6 @@ Este sitio web es una recopilación de todos los códigos y trabajos que he hech
 
 [Clase 102](./102)
 
-
 ## Notas de lectura del Código 201
 
 [Clase 201](./201)
