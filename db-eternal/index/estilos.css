@@ -7,21 +7,45 @@ body {
     font-family: sans-serif;
     color: white;
 }
-
-h1 {
+header {
+    position: relative; /* Asegura que los elementos absolutos se posicionen relativos a este */
+    height: 100px; /* Altura del h1 */
+}
+#h1iz{
+    
     position: fixed;
     top: 0;
-    width: 100%;
-    height:7vw;
-    background-color: #D67711;
-    text-align: center;
-    padding: 20px;
+    left: 0;
+    width: 16%;
+    height: 8vw;
     z-index: 1;
+
+}
+#h1de{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 16%;
+    height: 8vw;
+    z-index: 1;
+}
+h1 {
+   
+    position: fixed; /* Posición absoluta para superponer la imagen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Altura del h1 */
+    background: url(../index/imagenes/dbz-eternal.jpg) no-repeat center center; /* Ruta de la imagen */
+    background-size: auto 100%; /* El ancho será automático y el alto ocupará todo el h1 */
+    text-indent: -9999px; /* Oculta el texto del h1 */
+    z-index: 1; /* Asegura que el h1 esté encima del contenido del header */
 }
 
 nav {
     position: fixed;
-    top: 70px;
+    top: 90px;
     width: 100%;
    
     z-index: 2;
@@ -36,12 +60,11 @@ nav {
     padding: 0;
     height:6vw; /* Altura de la franja */
     width: 100%; /* Ancho total de la página */
-    background-color: hsl(11, 98%, 49%); /* Color de la franja */
+    background-color: red; /* Color de la franja */
 }
 
 #top li {
    display: inline-block; 
-    /*border: 10px solid hsl(11, 98%, 49%); */
     padding: 10px; 
    margin: 20 10 20 10; 
    background-color: #EFB810;
@@ -52,10 +75,15 @@ nav {
    background-clip: padding-box;
    font-size: 1.7vw;
   
-   
 }
+nav #top li:hover {
+    background-color: #000000;
+    text-shadow: 0 0 5px gold, 0 0 5px gold, 0 0 5px gold;
+}
+
+
 #hero_image_cont {
-    margin-top: 175px; 
+    margin-top: 95px; 
 }
 
 #hero_image {
@@ -63,7 +91,8 @@ nav {
     max-width: 100%; 
     height: auto; 
     border-radius: 20px;
-    margin: 30px auto;
+    margin: 20px auto;
+    
 }
 
 hr {
@@ -94,9 +123,9 @@ h2{
 }
 
 #gallery img {
-    width: 28vw;
+    width: 20vw;
     border-radius: 20px;
-    height: 50vw;
+    height: 35vw;
     margin: 10px 30px 10px 30px;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
