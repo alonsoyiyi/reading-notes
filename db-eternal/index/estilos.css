@@ -16,8 +16,8 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 16vw;
-    height: 16.1vh;
+    width: 22.5vw;
+    height: 16vh;
     z-index: 1;
 
 }
@@ -26,8 +26,8 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    width: 16vw;
-    height: 16.1vh;
+    width: 22.5vw;
+    height: 16vh;
     z-index: 1;
 }
 h1 {
