@@ -1,4 +1,4 @@
-# Java scrip para novatos LVL 1
+# Java script para novatos LVL 1
 
 ## ¿Qué son las variables en JavaScript?
 

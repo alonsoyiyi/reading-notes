@@ -8,5 +8,5 @@
 - [Control de Versiones](control-versiones.md)
 - [HTML para principiantes](./html-principiantes.md)
 - [Css para principiantes](./css-principiantes.md)
-- [Clase 7](./7.md)
+- [Javascript para principiantes](./javascript.md)
 - [Clase 8](./8.md)
