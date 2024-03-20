@@ -9,4 +9,4 @@
 - [HTML para principiantes](./html-principiantes.md)
 - [Css para principiantes](./css-principiantes.md)
 - [Javascript para principiantes](./javascript.md)
-- [JavaScript LEVEL 2](./javascriptlvl2.mdd)
+- [JavaScript LEVEL 2](./javascriptlvl2.md)
