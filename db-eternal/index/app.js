@@ -34,12 +34,11 @@ function raza (){
     } 
    
 }
-
 function poder(){
     let user_power = prompt("Ingrese su nivel de poder máximo");
 
-    if (user_power<1000){
-        
+  if (user_power<1000){
+       
         alert('Insecto!! No aceptamos debiluchos! Entrena y vuelve cuando tengas un nivel de poder más alto >.>');
         poder();
    } else if (user_power>1000){
@@ -50,6 +49,25 @@ function poder(){
 }
 
 
+function krilin(){
+    let user_krilin = prompt("Ingrese las veces que kirlin murio");
+    while (user_krilin != 5){
+        // user_krilin = parseInt(user_krilin);
+        alert('Insecto!! No sabes nada de la serie!! >.>');
+        user_krilin = prompt("te doy otra oportunidad");
+    }
+    alert('Muy bien papu, tu si sabes');
+}
+
+ function esferas(){
+ let cantidad =prompt ("¿cuántas esferas te faltan recolectar?")
+    cantidad=parseInt(cantidad);
+    for(i = 0; i < cantidad; i++){
+        document.write(
+            '<img src="imagenes/esfera.jpg>'
+            );
+    }
+ }
 
 
 
