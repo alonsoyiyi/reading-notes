@@ -40,9 +40,9 @@ function poder(){
         alert('Insecto!! No aceptamos debiluchos! Hasta Yamcha te hubiera derrotado!! Entrena y vuelve cuando tengas un nivel de poder más alto >.>');
         poder();
    } else if (user_power>1000){
-    document.write("Disfruta tu estancia " + user_name +" , aunque seas un guerrero de clase baja");
+    document.write("Disfruta tu estancia " + user_name +" , aunque seas un guerrero de clase baja. Por cierto, aquí están tus esferas:");
    } else if(user_power>10000){
-    document.write("Disfruta tu estancia " + user_name +" , es tu recompensa por ser un guerrero de clase alta");
+    document.write("Disfruta tu estancia " + user_name +" , es tu recompensa por ser un guerrero de clase alta. Por cierto, aquí están tus esferas:");
    } 
 }
 
