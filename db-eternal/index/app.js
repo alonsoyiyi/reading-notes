@@ -1,7 +1,5 @@
 
-// function hola_name(){
-//     return user_name;
-// }
+
 let user_name = prompt ("Bienvenido guerrero, dime tu nombre.");
 
 
@@ -64,14 +62,9 @@ function krilin(){
     cantidad=parseInt(cantidad);
     for(i = 0; i < cantidad; i++){
         document.write(
-            '<img src="imagenes/esfera.jpg>'
+            '<img src="imagenes/esfera.jpg">'
             );
     }
  }
-
-
-
-
-
 
 
