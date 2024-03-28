@@ -10,25 +10,25 @@ function raza (){
     if (user_race === "Sayayin") {
         document.body.style.backgroundColor = "black";
         console.log(user_race);
-        document.write("Genial, un sayayin");
+        document.write("Genial, un sayayin.");
     } else if (user_race === "Humano") {
         document.body.style.backgroundColor = "green";
-        document.write("Genial, un Humano");
+        document.write("Genial, un Humano.");
     } else if (user_race === "Androide") {
         document.body.style.backgroundColor = "blue";
-        document.write("Genial, un Androide");
+        document.write("Genial, un Androide.");
     } else if (user_race === "Mutante") {
         document.body.style.backgroundColor = "purple";
-        document.write("Genial, un Mutante");
+        document.write("Genial, un Mutante.");
     } else if (user_race === "Shin-Jin") {
         document.body.style.backgroundColor = "orange";
-        document.write("Genial, un kaio");
+        document.write("Ohhh, un kaio.");
     } else if (user_race === "Angel") {
         document.body.style.backgroundColor = "white";
-        document.write("Genial, un Angel");
+        document.write("Madre mía, un Angel.");
     } else if (user_race === "Hakai-Shin") {
         document.body.style.backgroundColor = "red";
-        document.write("Genial, un Dios");
+        document.write("Mi señor, un Dios.");
     } 
    
 }
@@ -37,12 +37,12 @@ function poder(){
 
   if (user_power<1000){
        
-        alert('Insecto!! No aceptamos debiluchos! Entrena y vuelve cuando tengas un nivel de poder más alto >.>');
+        alert('Insecto!! No aceptamos debiluchos! Hasta Yamcha te hubiera derrotado!! Entrena y vuelve cuando tengas un nivel de poder más alto >.>');
         poder();
    } else if (user_power>1000){
-    document.write("Disfruta tu estancia guerrero de clase baja");
+    document.write("Disfruta tu estancia " + user_name +" , aunque seas un guerrero de clase baja");
    } else if(user_power>10000){
-    document.write("Disfruta tu estancia guerrero de clase alta");
+    document.write("Disfruta tu estancia " + user_name +" , es tu recompensa por ser un guerrero de clase alta");
    } 
 }
 
@@ -60,9 +60,15 @@ function krilin(){
  function esferas(){
  let cantidad =prompt ("¿cuántas esferas te faltan recolectar?")
     cantidad=parseInt(cantidad);
+
+    if (cantidad > 7) {
+        alert("Si quieres más esferas tendrás que decirle a Dendé que te haga unas, yo solo te puedo dar 7 :v");
+        esferas(); 
+        return; 
+    }
     for(i = 0; i < cantidad; i++){
         document.write(
-            '<img src="imagenes/esfera.jpg">'
+            '<img src="imagenes/esfera.jpg" class="esfera-img">'
             );
     }
  }

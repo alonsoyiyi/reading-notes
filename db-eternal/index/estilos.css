@@ -147,6 +147,12 @@ h2{
     opacity: 1;
 }
 
+.esfera-img {
+    width: 20px;
+    height: auto;
+    margin: 5px; 
+}
+
 footer {
     margin-top: 100px;
     display: flex;
