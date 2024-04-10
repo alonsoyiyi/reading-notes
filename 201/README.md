@@ -1,6 +1,7 @@
 # Reads
 
 [Class 1](./reads/1.md)
+[Class 2](./reads/2.md)
 
 # Labs
 
