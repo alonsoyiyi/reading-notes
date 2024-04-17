@@ -3,6 +3,7 @@
 - [Class 1](./reads/1.md)
 - [Class 2](./reads/2.md)
 - [Class 3](./reads/3.md)
+- [Class 4](./reads/4.md)
 
 # Labs
 
