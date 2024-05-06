@@ -6,6 +6,7 @@
 - [Class 4](./reads/4.md)
 - [Class 5](./reads/5.md)
 - [Class 6](./reads/6.md)
+- [Class 9](./reads/9.md)
 
 # Labs
 
