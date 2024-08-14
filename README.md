@@ -16,6 +16,10 @@ Este sitio web es una recopilación de todos los códigos y trabajos que he hech
 
 [Clase 201](./201)
 
+## Notas de lectura del Código 301
+
+[Clase 201](./301/read-01.md)
+
 ## Dragon Ball Eternal
 
 [Dragon Ball Eternal](./db-eternal/index/index.html)
