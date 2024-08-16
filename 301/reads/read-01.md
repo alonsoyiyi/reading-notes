@@ -31,18 +31,3 @@ Dentro de una etiqueta previamente configurada, las propiedades o props funciona
 ### ¿Cuál es el flujo de los props?
 
 El flujo de props es unidireccional, esto quiere decir que sólo y únicamente va en un solo sentido de padre a hijo. El componente hijo no puede modificar la información del componente padre y en caso necesite hacerlo, tiene que indicar al componente padre que envíe la información modificada.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

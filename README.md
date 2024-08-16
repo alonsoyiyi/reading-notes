@@ -18,7 +18,7 @@ Este sitio web es una recopilación de todos los códigos y trabajos que he hech
 
 ## Notas de lectura del Código 301
 
-[Clase 201](./301/read-01.md)
+[Clase 301](./301/reads/README.md)
 
 ## Dragon Ball Eternal
 
